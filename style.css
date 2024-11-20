@@ -1,0 +1,31 @@
+body {
+  font-family: 'quicksand';
+}
+
+.container {
+  display: flex;
+  justify-content: center;  /* Alinha os itens na horizontal (centro) */
+  align-items: center;      /* Alinha os itens na vertical (centro) */
+}
+
+.green, .red, .blue {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 120px;
+  height: 120px;
+  margin: 10px;
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
